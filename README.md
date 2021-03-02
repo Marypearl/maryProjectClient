@@ -1,3 +1,10 @@
+# Erhabor Mary
+# N01384990
+# Worked on the MentorPhoto Page and also created the headed and footer
+# Using react component, useState, Useeffect and NavLink.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
