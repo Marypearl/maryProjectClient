@@ -57,8 +57,8 @@ function Header(){
       <NavLink activeClassName='is-active' to='/mentorsphoto'>
             Mentor's Photo 
           </NavLink>
-          <NavLink activeClassName='is-active' to='/socialMedialink'>
-           Social Media Link 
+          <NavLink activeClassName='is-active' to='/mentorsBio'>
+           Mentor Bio
           </NavLink> 
           <NavLink activeClassName='is-active' to='/mentorsQuestion'>
             Questions for Mentors 

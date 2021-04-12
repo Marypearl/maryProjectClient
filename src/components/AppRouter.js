@@ -5,11 +5,12 @@ import Home from './Home'
 import Contact from './Contact';
 import About from './About';
 import MentorsPhoto from './MentorsPhoto';
-import SocialMediaLink from './SocialMediaLink';
+import MentorsBio from './MentorsBio';
 import MentorsQuestion from './MentorsQuestion'
 import Header from './Header';
 import Footer from './Footer';
 import '../App.css';
+
 
 const AppRouter = () => {
   return (
@@ -26,7 +27,7 @@ const AppRouter = () => {
         <Route path='/About' component={About} />
         <Route path='/MentorsPhoto' component={MentorsPhoto} />
         <Route path='/MentorsQuestion' component={MentorsQuestion} />
-        <Route path='/socialMediaLink' component={SocialMediaLink} />
+        <Route path='/MentorsBio' component={MentorsBio} />
         
       </Switch>
         

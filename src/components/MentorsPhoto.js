@@ -7,15 +7,16 @@ const MentorsPhoto = () => {
       .then((res) => res.json())
       .then((resData) => {
         setMentors(resData);
+        console.log(resData)
       });
-  });
+  },[]);
   const handleOnMentorClick = (item) => {
     console.log("click", item);
   };
 
   return (
     <div>
-      <div>Mentors Photo</div>
+      <div className="mentors-photo-heading">Mentors Photo</div>
       <div className="mentors-image-container">
         {mentors.map((mentor) => {
           return (
