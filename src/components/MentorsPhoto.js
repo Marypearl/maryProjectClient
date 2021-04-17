@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const MentorsPhoto = () => {
   const [mentors, setMentors] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/mentors.json")
+    fetch("http://localhost:5000/api/mentors")
       .then((res) => res.json())
       .then((resData) => {
         setMentors(resData);
@@ -37,5 +37,30 @@ const MentorsPhoto = () => {
     </div>
   );
 };
+// import React, { useEffect, useState } from "react";
+// import axios from "axios";
+
+// const MentorsQuestion = () => {
+//   const [questions, setQuestions] = useState([]);
+//   useEffect(() => {
+//     axios.get("http://localhost:5000/api/qa").then((resData) => {
+//       setQuestions(resData.data);
+//       console.log(resData);
+//     });
+//   }, []);
+//   return (
+//     <div>
+//       <div className="questions-section-heading">Mentors Question</div>
+//       {questions.map((ques, i) => (
+//         <div className="question-section" key={ques._id}>
+//           <p className="question">Q{i+1}: {ques.question}</p>
+//           <p>Ans: {ques.answer}</p>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default MentorsQuestion;
 
 export default MentorsPhoto;

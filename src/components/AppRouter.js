@@ -9,6 +9,8 @@ import MentorsBio from './MentorsBio';
 import MentorsQuestion from './MentorsQuestion'
 import Header from './Header';
 import Footer from './Footer';
+
+
 import '../App.css';
 
 
@@ -21,14 +23,17 @@ const AppRouter = () => {
         <Route path='/' exact component={Home} />
         <Route
           path='/about'
-          render={() => <About title='POTHUNTER' />}
+         
         />
         <Route path='/contact' component={Contact} />
         <Route path='/About' component={About} />
         <Route path='/MentorsPhoto' component={MentorsPhoto} />
         <Route path='/MentorsQuestion' component={MentorsQuestion} />
+
         <Route path='/MentorsBio' component={MentorsBio} />
         
+      
+
       </Switch>
         
       </div>

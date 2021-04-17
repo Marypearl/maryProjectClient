@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const MentorsBio = () => {
   const [mentorsBios, setMentorsBio] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/MentorsBio.json")
+    fetch("http://localhost:5000/api/mentorsBio")
       .then((res) => res.json())
       .then((resData) => {
         setMentorsBio(resData);
@@ -17,26 +17,26 @@ const MentorsBio = () => {
   return (
     <div>
       <div className="mentors-photo-heading">Mentor's Bio</div>
-      <div className="">
-        {mentorsBios.map(( mentorsBio) => {
+      <div className="mentorbio-cards">
+        {mentorsBios.map((mentorsBio) => {
           return (
-            <div
-              className=""
-              key={mentorsBio.id}
-              onClick={() => handleOnMentorsBioClick(mentorsBio.linkUrl)}
-            >
-              
+            <div              
+              key={mentorsBio._id}
+              onClick={() => handleOnMentorsBioClick(mentorsBio.mentorsLinkedInUrl)}>          
+              <div className="mentorbio-card">
+                <p className= "mentorbio-name">{mentorsBio.mentorsName}</p>
+                <p className="mentorsbio-details">{mentorsBio.mentorsProf}</p>
+                <a href={mentorsBio.mentorsLinkedInUrl} target="_blank">
+                <img height="30" width="30" src="https://image.flaticon.com/icons/png/512/174/174857.png" />
 
-              <div className="">
-                <p className= "mentorbio-name">{mentorsBio.name}</p>
-                <p className="mentorsbio-details">{mentorsBio.bio}</p>
-                <p>{mentorsBio.linkUrl}</p>
-              </div>
+                </a>  
+                            
+                </div>
             </div>
           );
         })}
+        </div>
       </div>
-    </div>
   );
 };
 
