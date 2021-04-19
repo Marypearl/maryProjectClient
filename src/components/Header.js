@@ -62,7 +62,18 @@ function Header(){
           </NavLink> 
           <NavLink activeClassName='is-active' to='/mentorsQuestion'>
             Questions for Mentors 
-          </NavLink>   
+          </NavLink>  
+
+          {/* Added Menu By Soumitra */} 
+          <NavLink activeClassName='is-active' to='/employmentService'>
+            Employment Service 
+          </NavLink>  
+          <NavLink activeClassName='is-active' to='/successStory'>
+            User Success Story 
+          </NavLink> 
+          <NavLink activeClassName='is-active' to='/mentorsRating'>
+            Mentors Rating 
+          </NavLink> 
           <NavLink activeClassName='is-active' to='/about'>
             About 
           </NavLink>
