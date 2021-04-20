@@ -1,3 +1,12 @@
+# Project - PotHunter
+# Team - COSMOS
+# Members - Ismaila (Team Lead)
+#         - Soumitra Bain
+#         - Mary Erhabor
+#         - Loveleen Kaur
+#         - Shelcy Shaji Thekkedathu(N01450487)
+
+# ********************************************
 # Erhabor Mary
 # N01384990
 # Worked on the MentorPhoto Page and also created the headed and footer
@@ -6,7 +15,7 @@
 # Enables cors
 
 
-# **********************************************************************
+# ************************************************
 
 # Student Name: Shelcy Shaji Thekkedathu
 # Student Number: N01450487
@@ -35,14 +44,12 @@ Format: ![Alt Text](url)
 Format: ![Alt Text](url)
 
 # Installed packages:
-
-1. npm init –y
+1. npm install jsonwebtoken
 2. npm install express
 3. npm install config
 4. npm install mongoose
 5. npm install bcryptjs
 6. npm install express-validator
-7. npm install jsonwebtoken
 
 # ACTION WORDS: Stored multiple action words which commonly used in resumes in mongoDB database table "words" and displayed it on application screen
 ![GitHub Logo](/images/s1.JPG)
@@ -73,13 +80,16 @@ Format: ![Alt Text](url)
 1. words : To store all actions words and accomplishment statements related to that action words
 2. formnews : To store details of user and that data can be used to populate a resume template when user hits the submit button
 3. jobs : Stored multiple job postings and user can apply jobs on website through link
-3. Created RestAPI for action words, jobs and forms
-4. Performed CRUD operations on list of action words - Used Postman
-5. Displayed all action words and accomplishment statements on screen when user click on ACTION WORDS
-6. Created a form which user can enter details from tha application, stored that data in the database and displayed that data on application screen
-7. Added users and authenticated 
-8. Password encrypted and stored in the database 
-9. Created a job search engine where user can view a list of job postings and website link to apply
+4. Used postman to perform CRUD operations
+5. Created RestAPI for action words, jobs and forms
+6. Performed CRUD operations on list of action words - Used Postman
+7. Displayed all action words and accomplishment statements on screen when user click on ACTION WORDS
+8. Created a form which user can enter details from tha application, stored that data in the database and displayed that data on application screen as a resume template.
+9. Fetched the user data from the database and populted a resume template
+10. Added users and authenticated 
+11. Password encrypted and stored in the database 
+12. Created a job search engine where user can view a list of job postings and website link to apply on company website.
+13. Deployed both server and client individually on Heroku
 
 
 # Additional features
