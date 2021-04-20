@@ -1,46 +1,6 @@
 import React from 'react';
 import {  NavLink } from 'react-router-dom';
 
-// function Header() {
-//   return (
-//     <div>
-//       <ul>
-//         <li>
-//           <NavLink exact activeClassName='is-active' to='/'>
-//             Home
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink activeClassName='is-active' to='/mentorsphoto'>
-//             Mentor's Photo 
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink activeClassName='is-active' to='/contact'>
-//             Contact Us 
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink activeClassName='is-active' to='/about'>
-//             About 
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink activeClassName='is-active' to='/mentorsQuestion'>
-//             Questions for Mentors 
-//           </NavLink>
-//         </li>
-//         <li>
-//           <NavLink activeClassName='is-active' to='/socialMedialink'>
-//            Social Media Link 
-//           </NavLink>
-//         </li>
-//       </ul>
-//     </div>
-//   );
-// }
-
-
 function Header(){
   return (
 <nav className="navbar">
@@ -79,6 +39,20 @@ function Header(){
           </NavLink>
           <NavLink activeClassName='is-active' to='/contact'>
             Contact Us 
+          </NavLink>
+          
+          {/* Added Menu By Shelcy */} 
+          <NavLink activeClassName='is-active' to='/reviewCard'>
+            Resume Templates
+          </NavLink>
+          <NavLink activeClassName='is-active' to='/jobapi'>
+            Jobs
+          </NavLink>
+          <NavLink activeClassName='is-active' to='/userlogin'>
+            Action Words
+          </NavLink>
+          <NavLink activeClassName='is-active' to='/formNew'>
+           Build Resume
           </NavLink>
       
        </div>

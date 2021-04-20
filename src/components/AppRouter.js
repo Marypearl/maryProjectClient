@@ -12,6 +12,19 @@ import Footer from './Footer';
 import EmploymentService from './EmploymentService';
 import UserSuccessStory from './UserSuccessStory';
 import MentorsRating from './MentorsRating';
+//Added by Shelcy
+import ReviewCard from './ReviewCard';
+import UserLogin from './UserLogin';
+import JsonApiWords from './JsonApiWords';
+import JsonApiJobs from './JsonApiJobs';
+import JsonApiForm from './JsonApiForm';
+import Jobs from './Jobs';
+import Login from './auth/Login';
+import Register from './auth/Register';
+import Reg from './auth/Reg';
+import FormResume from './auth/FormResume';
+import FormNew from './auth/FormNew';
+
 
 
 import '../App.css';
@@ -38,6 +51,20 @@ const AppRouter = () => {
         <Route path='/employmentService' component={EmploymentService} />  
         <Route path='/successStory' component={UserSuccessStory} /> 
         <Route path='/mentorsRating' component={MentorsRating} /> 
+
+        {/* Added By Shelcy */}
+
+        <Route path='/ReviewCard' component={ReviewCard} />
+        <Route path='/Jobs' component={Jobs} />
+        <Route path='/api' component={JsonApiWords} />
+        <Route path='/jobapi' component={JsonApiJobs} />
+        <Route path='/apiform' component={JsonApiForm} />
+        <Route path='/login' component={Login } />
+        <Route path='/register' component={Register} />
+        <Route path='/reg' component={Reg} />
+        <Route path='/userlogin' component={UserLogin} />
+        <Route path='/form' component={FormResume} />
+        <Route path='/formNew' component={FormNew} />
       </Switch>
         
       </div>
