@@ -7,73 +7,173 @@
 
 
 
-# Getting Started with Create React App
+# Student Name: Shelcy Shaji Thekkedathu
+# Student Number: N01450487
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Main features completed - (Task assigned)
+1. ACTION WORDS: Stored multiple action words which commonly used in resume in mongoDB database table "words" and display it on application screen
+![GitHub Logo](/images/s1.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s6.JPG)
+Format: ![Alt Text](url)
+2. FORMS: Stored user resume related data in mongoDB database table named "formnews" and populated a resume template from fetching the data from the database and displayed on application screen.
+# Form which user can enter details
+![GitHub Logo](/images/s7.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s8.JPG)
+Format: ![Alt Text](url)
+# Resume which populate from user data
+![GitHub Logo](/images/s2.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s4.JPG)
+Format: ![Alt Text](url)
+3. JOBS: Stored multiple job posting details in mongoDB database table named "jobs" and displayed the job posting details and link to which apply on website.
+![GitHub Logo](/images/s3.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s5.JPG)
+Format: ![Alt Text](url)
 
-## Available Scripts
+# Additional features
+4. Displayed resume related FAQs
+5. Uploaded bunch of resume templates
 
-In the project directory, you can run:
+# Project Phase 2
+# Phase 1 completed successfully --> 
+1. Uploaded Resume Templates
+2. Used material ui for the UI part
+3. Displayed generally asking Resume related FAQs
+4. Added seperate part for Ask Questions
+5. Displayed Top Rated Resume Template
 
-### `npm start`
+# Project Phase 2
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Uploaded a bunch of job postings
+2. When the user clicks on the job application link, it will directs to the job application on website
+3. Search implemented on job postings-> User can easily SEARCH the jobs with keywords.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+# Resume Intro Card
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![GitHub Logo](/images/img1.JPG)
+Format: ![Alt Text](url)
 
-### `npm run build`
+![GitHub Logo](/images/img2.JPG)
+Format: ![Alt Text](url)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Resume FAQs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![GitHub Logo](/images/img33.JPG)
+Format: ![Alt Text](url)
 
-### `npm run eject`
+# Top Rated Resume Template
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![GitHub Logo](/images/img5.JPG)
+Format: ![Alt Text](url)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Resume Templates
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![GitHub Logo](/images/img3.JPG)
+Format: ![Alt Text](url)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![GitHub Logo](/images/img4.PNG)
+Format: ![Alt Text](url)
 
-## Learn More
+# Job Search engine for applicants
+# Uploaded latest jobs with link to website
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![GitHub Logo](/images/img6.PNG)
+Format: ![Alt Text](url)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![GitHub Logo](/images/img7.PNG)
+Format: ![Alt Text](url)
 
-### Code Splitting
+![GitHub Logo](/images/img8.PNG)
+Format: ![Alt Text](url)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Search Job with keywords
 
-### Analyzing the Bundle Size
+![GitHub Logo](/images/img9.PNG)
+Format: ![Alt Text](url)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Project Phase 2 Part 2
 
-### Making a Progressive Web App
+# Features with backend connection and authentication
+# Uploaded a bunch of Action Words 
+# Performed CRUD operations on list of action words
+# Added users and authenticated 
+# Password encrypted and stored in the database 
+# Created a Server application and connected the database
+# Created a Form which user can enter details and populate a template.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Tasks completed
+# Installed packages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. npm init –y
+2. npm install express
+3. npm install config
+4. npm install mongoose
+5. npm install bcryptjs
+6. npm install express-validator
+7. npm install jsonwebtoken
 
-### Deployment
+# Created three tables on mongodb database collection
+# Tables in MongoBD database collection are:
+1. words : To store all actions words and accomplishment statements related to that action words
+2. forms : To store details of user and that data can be used to populate a resume template when user hits the submit button
+3. jobs : To store, job ids, job title, job location, job urls, job descriptions and displayed the job postings on screen.So the user can easily search for jobs and apply on company website.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Created RestAPI for action words, jobs and forms
+2. Performed CRUD operations on list of action words - Used Postman
+3. Displayed all action words and accomplishment statements on screen when user click on ACTION WORDS
+4. Created a form which user can enter deatils from tha application, stored that data in the database and  displayed that data on screen
+5.  Added users and authenticated
+6. Password encrypted and stored in the database
 
-### `npm run build` fails to minify
+# Login Page & Action Words
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![GitHub Logo](/images/img12.JPG)
+Format: ![Alt Text](url)
+
+# Action Words & accomplishment statements from the database
+
+![GitHub Logo](/images/s1.JPG)
+Format: ![Alt Text](url)
+
+
+![GitHub Logo](/images/img16.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/img17.png)
+Format: ![Alt Text](url)
+
+# Form which user can enter details 
+
+![GitHub Logo](/images/img20.JPG)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/img21.JPG)
+Format: ![Alt Text](url)
+
+# Database & postman images
+
+1. npm install cors
+
+![GitHub Logo](/images/img10.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/img11.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/img13.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/img14.png.PNG)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/img15.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/img8.PNG)
+Format: ![Alt Text](url)
