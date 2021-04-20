@@ -16,6 +16,34 @@
 2. FORMS: Created all the required rest API for forms with authentication.Stored user resume related data in mongoDB database table named "formnews" and populated a resume template from fetching the data from the database and displayed it on application screen.
 3. JOBS: Created all the required rest API for jobs with authentication. Stored multiple job posting details in mongoDB database table named "jobs" and displayed the job posting details and website link to which apply on application screen.
 
+# HEROKU DEPLOYMENT
+# Deployed a server app with my 3 API's (words, jobs, forms) on Heroku
+
+# https://pothunter-shel-server.herokuapp.com/
+
+1. To test :
+2. https://pothunter-shel-server.herokuapp.com/api/words
+3. https://pothunter-shel-server.herokuapp.com/api/formnew
+4. https://pothunter-shel-server.herokuapp.com/api/jobs
+5. https://pothunter-shel-server.herokuapp.com/api/forms
+
+![GitHub Logo](/images/s13.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s14.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s12.JPG)
+Format: ![Alt Text](url)
+
+# Installed packages:
+
+1. npm init –y
+2. npm install express
+3. npm install config
+4. npm install mongoose
+5. npm install bcryptjs
+6. npm install express-validator
+7. npm install jsonwebtoken
+
 # ACTION WORDS: Stored multiple action words which commonly used in resumes in mongoDB database table "words" and displayed it on application screen
 ![GitHub Logo](/images/s1.JPG)
 Format: ![Alt Text](url)
@@ -38,24 +66,6 @@ Format: ![Alt Text](url)
 ![GitHub Logo](/images/s5.JPG)
 Format: ![Alt Text](url)
 
-# HEROKU DEPLOYMENT
-# Deployed a server app with my 3 API's (words, jobs, forms) on Heroku
-
-# https://pothunter-shel-server.herokuapp.com/
-
-1. To test :
-2. https://pothunter-shel-server.herokuapp.com/api/words
-3. https://pothunter-shel-server.herokuapp.com/api/formnew
-4. https://pothunter-shel-server.herokuapp.com/api/jobs
-5. https://pothunter-shel-server.herokuapp.com/api/forms
-
-![GitHub Logo](/images/s13.JPG)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/s14.JPG)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/s12.JPG)
-Format: ![Alt Text](url)
-
 # Tasks Completed
 
 # Created three tables on mongodb database collection
@@ -70,15 +80,6 @@ Format: ![Alt Text](url)
 7. Added users and authenticated 
 8. Password encrypted and stored in the database 
 9. Created a job search engine where user can view a list of job postings and website link to apply
-
-
-# Installed packages:
-1. npm install jsonwebtoken
-2. npm install express
-3. npm install config
-4. npm install mongoose
-5. npm install bcryptjs
-6. npm install express-validator
 
 
 # Additional features
@@ -126,8 +127,18 @@ Format: ![Alt Text](url)
 ![GitHub Logo](/images/img3.JPG)
 Format: ![Alt Text](url)
 
-![GitHub Logo](/images/img4.PNG)
+![GitHub Logo](/images/img4.JPG)
 Format: ![Alt Text](url)
+
+# Project Phase 2 Part 2
+
+1. Features with backend connection and authentication
+2. Uploaded a bunch of Action Words 
+3. Performed CRUD operations on list of action words
+4. Added users and authenticated 
+5. Password encrypted and stored in the database 
+6. Created a Server application and connected the database
+7. Created a Form which user can enter details and populate a template.
 
 # Job Search engine for applicants
 # Uploaded latest jobs with link to website
@@ -139,41 +150,6 @@ Format: ![Alt Text](url)
 
 ![GitHub Logo](/images/img9.PNG)
 Format: ![Alt Text](url)
-
-# Project Phase 2 Part 2
-
-# Features with backend connection and authentication
-# Uploaded a bunch of Action Words 
-# Performed CRUD operations on list of action words
-# Added users and authenticated 
-# Password encrypted and stored in the database 
-# Created a Server application and connected the database
-# Created a Form which user can enter details and populate a template.
-
-
-## Tasks completed
-# Installed packages:
-
-1. npm init –y
-2. npm install express
-3. npm install config
-4. npm install mongoose
-5. npm install bcryptjs
-6. npm install express-validator
-7. npm install jsonwebtoken
-
-# Created three tables on mongodb database collection
-# Tables in MongoBD database collection are:
-1. words : To store all actions words and accomplishment statements related to that action words
-2. forms : To store details of user and that data can be used to populate a resume template when user hits the submit button
-3. jobs : To store, job ids, job title, job location, job urls, job descriptions and displayed the job postings on screen.So the user can easily search for jobs and apply on company website.
-
-1. Created RestAPI for action words, jobs and forms
-2. Performed CRUD operations on list of action words - Used Postman
-3. Displayed all action words and accomplishment statements on screen when user click on ACTION WORDS
-4. Created a form which user can enter deatils from tha application, stored that data in the database and  displayed that data on screen
-5.  Added users and authenticated
-6. Password encrypted and stored in the database
 
 # Action Words & accomplishment statements from the database
 
@@ -188,3 +164,8 @@ Format: ![Alt Text](url)
 
 ![GitHub Logo](/images/img17.png)
 Format: ![Alt Text](url)
+
+
+
+
+
