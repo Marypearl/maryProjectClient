@@ -6,17 +6,22 @@
 # Enables cors
 
 
+# **********************************************************************
 
 # Student Name: Shelcy Shaji Thekkedathu
 # Student Number: N01450487
 
-# Main features completed - (Task assigned)
-1. ACTION WORDS: Stored multiple action words which commonly used in resume in mongoDB database table "words" and display it on application screen
+# Main features completed 
+1. ACTION WORDS: Created all the required rest API for action words and accomplishment statements with authentication.Stored multiple action words which commonly used in resumes in mongoDB database table "words" and displayed it on application screen
+2. FORMS: Created all the required rest API for forms with authentication.Stored user resume related data in mongoDB database table named "formnews" and populated a resume template from fetching the data from the database and displayed it on application screen.
+3. JOBS: Created all the required rest API for jobs with authentication. Stored multiple job posting details in mongoDB database table named "jobs" and displayed the job posting details and website link to which apply on application screen.
+
+# ACTION WORDS: Stored multiple action words which commonly used in resumes in mongoDB database table "words" and displayed it on application screen
 ![GitHub Logo](/images/s1.JPG)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s6.JPG)
 Format: ![Alt Text](url)
-2. FORMS: Stored user resume related data in mongoDB database table named "formnews" and populated a resume template from fetching the data from the database and displayed on application screen.
+# FORMS: Stored user resume related data in mongoDB database table named "formnews" and populated a resume template from fetching the data from the database and displayed on application screen.
 # Form which user can enter details
 ![GitHub Logo](/images/s7.JPG)
 Format: ![Alt Text](url)
@@ -27,11 +32,54 @@ Format: ![Alt Text](url)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s4.JPG)
 Format: ![Alt Text](url)
-3. JOBS: Stored multiple job posting details in mongoDB database table named "jobs" and displayed the job posting details and link to which apply on website.
+# JOBS: Stored multiple job posting details in mongoDB database table named "jobs" and displayed the job posting details and website link on application string
 ![GitHub Logo](/images/s3.JPG)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s5.JPG)
 Format: ![Alt Text](url)
+
+# HEROKU DEPLOYMENT
+# Deployed a server app with my 3 API's (words, jobs, forms) on Heroku
+
+# https://pothunter-shel-server.herokuapp.com/
+
+1. To test :
+2. https://pothunter-shel-server.herokuapp.com/api/words
+3. https://pothunter-shel-server.herokuapp.com/api/formnew
+4. https://pothunter-shel-server.herokuapp.com/api/jobs
+5. https://pothunter-shel-server.herokuapp.com/api/forms
+
+![GitHub Logo](/images/s13.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s14.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s12.JPG)
+Format: ![Alt Text](url)
+
+# Tasks Completed
+
+# Created three tables on mongodb database collection
+# Tables in MongoBD database collection are:
+1. words : To store all actions words and accomplishment statements related to that action words
+2. formnews : To store details of user and that data can be used to populate a resume template when user hits the submit button
+3. jobs : Stored multiple job postings and user can apply jobs on website through link
+3. Created RestAPI for action words, jobs and forms
+4. Performed CRUD operations on list of action words - Used Postman
+5. Displayed all action words and accomplishment statements on screen when user click on ACTION WORDS
+6. Created a form which user can enter details from tha application, stored that data in the database and displayed that data on application screen
+7. Added users and authenticated 
+8. Password encrypted and stored in the database 
+9. Created a job search engine where user can view a list of job postings and website link to apply
+
+
+# Installed packages:
+1. npm install jsonwebtoken
+2. npm install express
+3. npm install config
+4. npm install mongoose
+5. npm install bcryptjs
+6. npm install express-validator
+
 
 # Additional features
 4. Displayed resume related FAQs
@@ -47,9 +95,11 @@ Format: ![Alt Text](url)
 
 # Project Phase 2
 
-1. Uploaded a bunch of job postings
+1. Uploaded a bunch of job postings on mongoDB database and displayed it on application screen with the link to appy on company website.
 2. When the user clicks on the job application link, it will directs to the job application on website
 3. Search implemented on job postings-> User can easily SEARCH the jobs with keywords.
+4. Craeted a form which user can enter details and the user data are stored on mongoDB database.
+5. When the user clisck on RESUME TEMPLATES it will populate the resume template with the user data entered.
 
 
 # Resume Intro Card
@@ -82,13 +132,7 @@ Format: ![Alt Text](url)
 # Job Search engine for applicants
 # Uploaded latest jobs with link to website
 
-![GitHub Logo](/images/img6.PNG)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img7.PNG)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img8.PNG)
+![GitHub Logo](/images/s15.JPG)
 Format: ![Alt Text](url)
 
 # Search Job with keywords
@@ -131,49 +175,16 @@ Format: ![Alt Text](url)
 5.  Added users and authenticated
 6. Password encrypted and stored in the database
 
-# Login Page & Action Words
-
-![GitHub Logo](/images/img12.JPG)
-Format: ![Alt Text](url)
-
 # Action Words & accomplishment statements from the database
 
 ![GitHub Logo](/images/s1.JPG)
 Format: ![Alt Text](url)
 
+![GitHub Logo](/images/s16.JPG)
+Format: ![Alt Text](url)
 
 ![GitHub Logo](/images/img16.png)
 Format: ![Alt Text](url)
 
 ![GitHub Logo](/images/img17.png)
-Format: ![Alt Text](url)
-
-# Form which user can enter details 
-
-![GitHub Logo](/images/img20.JPG)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img21.JPG)
-Format: ![Alt Text](url)
-
-# Database & postman images
-
-1. npm install cors
-
-![GitHub Logo](/images/img10.png)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img11.png)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img13.png)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img14.png.PNG)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img15.png)
-Format: ![Alt Text](url)
-
-![GitHub Logo](/images/img8.PNG)
 Format: ![Alt Text](url)
