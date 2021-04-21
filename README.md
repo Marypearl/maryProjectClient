@@ -43,6 +43,24 @@ Format: ![Alt Text](url)
 ![GitHub Logo](/images/s12.JPG)
 Format: ![Alt Text](url)
 
+# Deployed a client app on Heroku
+
+# https://project-shelcy-client.herokuapp.com/
+
+1. To test :
+2. https://project-shelcy-client.herokuapp.com/jobapi
+3. https://project-shelcy-client.herokuapp.com/api
+4. https://project-shelcy-client.herokuapp.com/formNew
+5. https://project-shelcy-client.herokuapp.com/reviewCard
+
+![GitHub Logo](/images/s17.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s18.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s19.JPG)
+Format: ![Alt Text](url)
+![GitHub Logo](/images/s20.JPG)
+Format: ![Alt Text](url)
 # Installed packages:
 1. npm install jsonwebtoken
 2. npm install express
