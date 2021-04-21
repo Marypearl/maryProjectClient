@@ -114,10 +114,11 @@ const ReviewCard = () => {
 
             </div>
 
-            <h3>Click here to see the commonly used action words and accomplish statements in resume</h3>
-            <h2><NavLink to='/api'>ACTION WORDS</NavLink></h2>
-            <h3>Click here to see the populated resume templates</h3>
-            <h2><NavLink to='/apiform'>RESUME TEPLATES</NavLink></h2>
+            <h3>Click here to see the commonly used action words and accomplish statements in resume</h3>   
+            <NavLink to='/api'><button type="button" class ="button4"><h3>ACTION WORDS</h3></button></NavLink>
+            <h3>Click here to see your RESUME!</h3>
+            <NavLink to='/apiform'><button type="button" class ="button4"><h3>RESUME TEPLATES</h3></button></NavLink>
+
 
             <br></br>
           </Card>

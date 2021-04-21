@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 import decode from 'jwt-decode';
 import Card from '@material-ui/core/Card';
@@ -8,6 +7,7 @@ import './CardI.css';
 import './SamPic.css';
 import { red } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
+import { NavLink } from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -323,7 +323,13 @@ const Register = () => {
 
             <input type='submit' value='Register' />
           </form>
+
+
         </Card>
+        <h3>Click here to see your RESUME!</h3>
+            <h3><NavLink to='/apiform'><button type="button" class ="button4"><h2>RESUME TEPLATES</h2></button></NavLink></h3>
+
+
       </Card>
     </>
   );

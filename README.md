@@ -55,7 +55,7 @@ Format: ![Alt Text](url)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s8.JPG)
 Format: ![Alt Text](url)
-# Resume which populate from user data
+# Resume populted from user data
 ![GitHub Logo](/images/s2.JPG)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s4.JPG)
@@ -68,8 +68,8 @@ Format: ![Alt Text](url)
 
 # Tasks Completed
 
-# Created three tables on mongodb database collection
-# Tables in MongoBD database collection are:
+@. Created three tables on mongodb database collection.Tables in MongoBD database collection are:
+
 1. words : To store all actions words and accomplishment statements related to that action words
 2. formnews : To store details of user and that data can be used to populate a resume template when user hits the submit button
 3. jobs : Stored multiple job postings and user can apply jobs on website through link
@@ -97,7 +97,6 @@ Format: ![Alt Text](url)
 
 # Resume FAQs
 
-
 ![GitHub Logo](/images/img33.JPG)
 Format: ![Alt Text](url)
 
@@ -115,7 +114,6 @@ Format: ![Alt Text](url)
 Format: ![Alt Text](url)
 
 # Job Search engine for applicants
-# Uploaded latest jobs with link to website
 
 ![GitHub Logo](/images/s15.JPG)
 Format: ![Alt Text](url)
@@ -127,11 +125,10 @@ Format: ![Alt Text](url)
 
 # Action Words & accomplishment statements from the database
 
-![GitHub Logo](/images/s22.JPG)
-Format: ![Alt Text](url)
+![GitHub Logo](/images/s30.JPG)
 
-![GitHub Logo](/images/s16.JPG)
-Format: ![Alt Text](url)
+![GitHub Logo](/images/s22.JPG)
+
 
 
 
