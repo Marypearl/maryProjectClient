@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const MentorsBio = () => {
   const [mentorsBios, setMentorsBio] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/api/mentorsBio")
+    fetch("https://project-server-mary.herokuapp.com/api/mentorsBio")
       .then((res) => res.json())
       .then((resData) => {
         setMentorsBio(resData);
