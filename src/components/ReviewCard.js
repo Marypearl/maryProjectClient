@@ -109,7 +109,8 @@ backgroundColor: "#4C8259",
        </h3>
 
         </Typography>
-          <img src ={require('./resumecard.jpg')} alt = "Resume Img" style={mystyle} />
+          {/* <img src ={require('./resumecard.jpg')} alt = "Resume Img" style={mystyle} /> */}
+          <img src ={require('../img/resumecard.jpg')} alt = "Resume Img" style={mystyle} />
           
       <CardContent>
         <Typography variant="body2" component="p" color="white">
