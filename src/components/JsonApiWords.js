@@ -8,7 +8,7 @@ const JsonApiWords = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/words').then((response) => {
+    axios.get('https://pothunter-shel-server.herokuapp.com/api/words').then((response) => {
       setPosts(response.data);
       console.log(response);
     });

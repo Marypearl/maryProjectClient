@@ -8,7 +8,7 @@ const JsonApiForm = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/formnew').then((response) => {
+    axios.get('https://pothunter-shel-server.herokuapp.com/api/formnew').then((response) => {
       setPosts(response.data);
       console.log(response);
     });
