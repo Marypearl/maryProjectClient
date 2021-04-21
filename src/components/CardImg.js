@@ -60,7 +60,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res1.jpg')} height = {500} width={"100%"} alt={"resume1"} />      
+                <img src ={require('../img/res1.jpg')} height = {500} width={"100%"} alt={"resume1"} />      
                 </div>
               </Card>
             </div>
@@ -68,7 +68,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res2.jpg')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res2.jpg')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -76,7 +76,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res3.jpg')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res3.jpg')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -89,7 +89,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res8.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res8.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -97,7 +97,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res9.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res9.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -105,7 +105,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res10.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res10.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -118,7 +118,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res5.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res5.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -126,7 +126,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res6.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res6.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -134,7 +134,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res7.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res7.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -147,7 +147,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res11.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res11.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -155,7 +155,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res12.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res12.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -163,7 +163,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res13.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res13.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -176,7 +176,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res14.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res14.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -184,7 +184,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res15.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res15.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>
@@ -192,7 +192,7 @@ function CardImg() {
             <div class="column">
               <Card className={classes.card}>
                 <div>
-                <img src ={require('./res16.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
+                <img src ={require('../img/res16.JPG')} height = {500} width={"100%"} alt={"resume1"}  />      
                 </div>
               </Card>
             </div>

@@ -42,7 +42,7 @@ function MainHead() {
         <Card className={classes.card} style={mystyle3}>
          <div>
           <h3>Top Rated Resume Template</h3>;
-           <img src ={require('./res4.jpg')} height = {500} width={"100%"} alt={"resume1"}  />      
+           <img src ={require('../img/res4.jpg')} height = {500} width={"100%"} alt={"resume1"}  />      
          </div>
          <CardContent>
            <Typography color="primary" >

@@ -104,7 +104,7 @@ const ReviewCard = () => {
        </h3>
 
           </Typography>
-          <img src={require('./logo.jpg')} alt="Resume Img" style={mystyle} />
+          <img src={require('../img/logo.jpg')} alt="Resume Img" style={mystyle} />
 
           <CardContent>
             <Typography variant="body2" component="p" color="white">
