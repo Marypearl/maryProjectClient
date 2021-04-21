@@ -38,19 +38,19 @@ const ReviewCard = () => {
 
   const mystyle = {
     color: "white",
-    width: "30%",
-    height: "30%",
-    backgroundColor: "#00008B",
+    width: "50%",
+    height: "50%",
+    backgroundColor: "white",
     padding: "20px",
     fontFamily: "Arial"
 
   };
 
   const mystyle2 = {
-    width: "30%",
-    height: "auto",
+    width: "70%",
+    height: "70%",
     color: 'white',
-    backgroundColor: "#5D4B64",
+    backgroundColor: "#C1BB9A",
     fontFamily: 'fantasy',
     textAlign: 'center',
     justifyContent: 'left',
@@ -59,10 +59,10 @@ const ReviewCard = () => {
   };
 
   const mystyle5 = {
-    width: "80%",
-    height: "80%",
+    width: "90%",
+    height: "90%",
     color: 'white',
-    backgroundColor: "#AEB2D6",
+    backgroundColor: "#334C3A",
     fontFamily: 'fantasy',
     textAlign: 'center',
     justifyContent: 'left',
@@ -72,7 +72,8 @@ const ReviewCard = () => {
   const mystyle3 = {
     width: "auto",
     height: "auto",
-    backgroundColor: "#E7DFE9",
+    color: 'white',
+    backgroundColor: "#334C3A",
     textAlign: 'center',
     justifyContent: 'left',
     alignContent: 'left',
@@ -95,16 +96,12 @@ const ReviewCard = () => {
           />
           <Typography paragraph>
 
-            <h2>
-              LOGIN HERE!
-       </h2>
-
-            <h3>
+            <h1>
               Get Action Words for your RESUME!
-       </h3>
+       </h1>
 
           </Typography>
-          <img src={require('../img/logo.jpg')} alt="Resume Img" style={mystyle} />
+          <img src={require('../img/action.jpg')} alt="Resume Img" style={mystyle} />
 
           <CardContent>
             <Typography variant="body2" component="p" color="white">
@@ -117,24 +114,12 @@ const ReviewCard = () => {
 
             </div>
 
-            <p>Click here to see the commonly used action words and accomplish statements in resume</p>
-            <NavLink to='/api'>ACTION WORDS</NavLink>
-            <br></br>
-            <br></br>
-            <NavLink to='/apiform'>RESUME TEPLATES</NavLink>
+            <h3>Click here to see the commonly used action words and accomplish statements in resume</h3>
+            <h2><NavLink to='/api'>ACTION WORDS</NavLink></h2>
+            <h3>Click here to see the populated resume templates</h3>
+            <h2><NavLink to='/apiform'>RESUME TEPLATES</NavLink></h2>
 
             <br></br>
-            <br></br>
-            <div className="register">
-              <p>Register here to see 100s of Actions Words!</p>
-              <li>
-                <NavLink to='/login'>Login</NavLink>
-              </li>
-              <li>
-                <NavLink to='/register'>Register</NavLink>
-              </li>
-
-            </div>
           </Card>
         </Card>
       </Card>

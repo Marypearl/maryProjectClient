@@ -26,26 +26,10 @@
 3. JOBS: Created all the required rest API for jobs with authentication. Stored multiple job posting details in mongoDB database table named "jobs" and displayed the job posting details and website link to which apply on application screen.
 
 # HEROKU DEPLOYMENT
-# Deployed a server app with my 3 API's (words, jobs, forms) on Heroku
-
-# https://pothunter-shel-server.herokuapp.com/
-
-1. To test :
-2. https://pothunter-shel-server.herokuapp.com/api/words
-3. https://pothunter-shel-server.herokuapp.com/api/formnew
-4. https://pothunter-shel-server.herokuapp.com/api/jobs
-5. https://pothunter-shel-server.herokuapp.com/api/forms
-
-![GitHub Logo](/images/s13.JPG)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/s14.JPG)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/s12.JPG)
-Format: ![Alt Text](url)
-
-# Deployed a client app on Heroku
-
-# https://project-shelcy-client.herokuapp.com/
+1.  Deployed a server app with my 3 API's (words, jobs, forms) on Heroku
+2. https://pothunter-shel-server.herokuapp.com/
+3. Deployed a client app on Heroku
+4. https://project-shelcy-client.herokuapp.com/
 
 1. To test :
 2. https://project-shelcy-client.herokuapp.com/jobapi
@@ -53,14 +37,6 @@ Format: ![Alt Text](url)
 4. https://project-shelcy-client.herokuapp.com/formNew
 5. https://project-shelcy-client.herokuapp.com/reviewCard
 
-![GitHub Logo](/images/s17.JPG)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/s18.JPG)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/s19.JPG)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/s20.JPG)
-Format: ![Alt Text](url)
 # Installed packages:
 1. npm install jsonwebtoken
 2. npm install express
@@ -69,13 +45,12 @@ Format: ![Alt Text](url)
 5. npm install bcryptjs
 6. npm install express-validator
 
-# ACTION WORDS: Stored multiple action words which commonly used in resumes in mongoDB database table "words" and displayed it on application screen
-![GitHub Logo](/images/s1.JPG)
+# ACTION WORDS: 
+![GitHub Logo](/images/s22.JPG)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s6.JPG)
 Format: ![Alt Text](url)
-# FORMS: Stored user resume related data in mongoDB database table named "formnews" and populated a resume template from fetching the data from the database and displayed on application screen.
-# Form which user can enter details
+# FORMS:
 ![GitHub Logo](/images/s7.JPG)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s8.JPG)
@@ -85,7 +60,7 @@ Format: ![Alt Text](url)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s4.JPG)
 Format: ![Alt Text](url)
-# JOBS: Stored multiple job posting details in mongoDB database table named "jobs" and displayed the job posting details and website link on application string
+# JOBS: 
 ![GitHub Logo](/images/s3.JPG)
 Format: ![Alt Text](url)
 ![GitHub Logo](/images/s5.JPG)
@@ -102,33 +77,14 @@ Format: ![Alt Text](url)
 5. Created RestAPI for action words, jobs and forms
 6. Performed CRUD operations on list of action words - Used Postman
 7. Displayed all action words and accomplishment statements on screen when user click on ACTION WORDS
-8. Created a form which user can enter details from tha application, stored that data in the database and displayed that data on application screen as a resume template.
+8. Created a form which user can enter details from tha application, stored that data in the mongoDB database and displayed that data on application screen as a resume template.
 9. Fetched the user data from the database and populted a resume template
 10. Added users and authenticated 
 11. Password encrypted and stored in the database 
 12. Created a job search engine where user can view a list of job postings and website link to apply on company website.
 13. Deployed both server and client individually on Heroku
-
-
-# Additional features
-4. Displayed resume related FAQs
-5. Uploaded bunch of resume templates
-
-# Project Phase 2
-# Phase 1 completed successfully --> 
-1. Uploaded Resume Templates
-2. Used material ui for the UI part
-3. Displayed generally asking Resume related FAQs
-4. Added seperate part for Ask Questions
-5. Displayed Top Rated Resume Template
-
-# Project Phase 2
-
-1. Uploaded a bunch of job postings on mongoDB database and displayed it on application screen with the link to appy on company website.
-2. When the user clicks on the job application link, it will directs to the job application on website
-3. Search implemented on job postings-> User can easily SEARCH the jobs with keywords.
-4. Craeted a form which user can enter details and the user data are stored on mongoDB database.
-5. When the user clisck on RESUME TEMPLATES it will populate the resume template with the user data entered.
+14. Displayed resume related FAQs
+15. Uploaded bunch of resume templates
 
 
 # Resume Intro Card
@@ -158,16 +114,6 @@ Format: ![Alt Text](url)
 ![GitHub Logo](/images/img4.JPG)
 Format: ![Alt Text](url)
 
-# Project Phase 2 Part 2
-
-1. Features with backend connection and authentication
-2. Uploaded a bunch of Action Words 
-3. Performed CRUD operations on list of action words
-4. Added users and authenticated 
-5. Password encrypted and stored in the database 
-6. Created a Server application and connected the database
-7. Created a Form which user can enter details and populate a template.
-
 # Job Search engine for applicants
 # Uploaded latest jobs with link to website
 
@@ -181,17 +127,13 @@ Format: ![Alt Text](url)
 
 # Action Words & accomplishment statements from the database
 
-![GitHub Logo](/images/s1.JPG)
+![GitHub Logo](/images/s22.JPG)
 Format: ![Alt Text](url)
 
 ![GitHub Logo](/images/s16.JPG)
 Format: ![Alt Text](url)
 
-![GitHub Logo](/images/img16.png)
-Format: ![Alt Text](url)
 
-![GitHub Logo](/images/img17.png)
-Format: ![Alt Text](url)
 
 
 

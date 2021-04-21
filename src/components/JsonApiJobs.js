@@ -69,7 +69,7 @@ const Post = (props) => {
       <h2>Company : {props.post.cmpny}</h2>
       <Card style={mystyle4} class="center">
       <h3>Apply on Company site!</h3>
-      <a href={props.post.ref}>{props.post.ref}</a> 
+     <b> <a href={props.post.ref}>{props.post.ref}</a> </b>
       <h2>Job Description:</h2>
       <h3>{props.post.jd}</h3>
       <br></br>

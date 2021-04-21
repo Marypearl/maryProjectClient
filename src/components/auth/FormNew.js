@@ -102,8 +102,8 @@ const Register = () => {
   const mystyle5 = {
     width: "auto",
     height: "100%",
-    color: '#9e868b',
-    backgroundColor: "#C5A5AF",
+    color: 'black',
+    backgroundColor: "#927276",
     fontFamily: 'fantasy',
     textAlign: 'center',
     justifyContent: 'left',
@@ -125,7 +125,7 @@ const Register = () => {
     <>
       <Card className={classes.root} style={mystyle5} class="center">
         <h1>Build Your Resume</h1>
-        <p>Enter your details below</p>
+        <h2>Enter your details below</h2>
         <Card className={classes.root} style={mystyle2} class="center">
 
           <h2>What’s the best way for employers to contact you?</h2>
@@ -323,9 +323,6 @@ const Register = () => {
 
             <input type='submit' value='Register' />
           </form>
-          <p>
-            Already have an account? <Link to='/login'>Sign In</Link>
-          </p>
         </Card>
       </Card>
     </>

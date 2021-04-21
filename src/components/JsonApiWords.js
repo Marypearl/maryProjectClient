@@ -28,7 +28,7 @@ const mystyle5 = {
   width: "90%",
   height: "20%",
   color: 'black',
-  backgroundColor: "#B48682",
+  backgroundColor: "#334C3A",
   fontFamily: 'Helvetica Neue", Helvetica, Arial, sans-serif',
   textAlign: 'center',
   justifyContent: 'left',
