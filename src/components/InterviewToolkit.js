@@ -7,7 +7,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import samples from './samples'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
@@ -39,7 +38,7 @@ const InterviewToolkit = () => {
     const [interviewTookit, setToolkit] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/toolkit/').then((response) => {
+        axios.get('https://project-server-loveleen.herokuapp.com/api/toolkit').then((response) => {
             setToolkit(response.data);
             console.log(response);
         });

@@ -6,7 +6,15 @@
 #         - Loveleen Kaur
 #         - Shelcy Shaji Thekkedathu(N01450487)
 
+## Student Name : Loveleen Kaur  
+## Student Number : n01424737
+
+## Task
+- [x] Complete client application with all the required functionality
+- [x] Worked on the front end of FAQS, Interview tool Kits, Download Resume template using react functionality
+
 # ********************************************
+
 # Erhabor Mary
 # N01384990
 # Worked on the MentorPhoto Page and also created the headed and footer

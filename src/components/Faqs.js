@@ -56,11 +56,11 @@ export default function CustomizedAccordions() {
     setExpanded(newExpanded ? panel : false);
   };
   useEffect(() => {
-    axios.get('http://localhost:5000/api/faqs/').then((response) => {
+    axios.get('https://project-server-loveleen.herokuapp.com/api/faqs').then((response) => {
         setQuestions(response.data);
         console.log(response);
     });
-}, []);
+  }, []);
 
   return (
     <div>

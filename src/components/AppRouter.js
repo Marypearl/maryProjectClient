@@ -21,6 +21,10 @@ import JsonApiForm from './JsonApiForm';
 import Jobs from './Jobs';
 import FormResume from './auth/FormResume';
 import FormNew from './auth/FormNew';
+//Added by Loveleen
+import Faqs from './Faqs';
+import InterviewToolkit from './InterviewToolkit';
+import DownloadTemplate from './DownloadTemplate';
 
 
 
@@ -48,6 +52,11 @@ const AppRouter = () => {
         <Route path='/employmentService' component={EmploymentService} />  
         <Route path='/successStory' component={UserSuccessStory} /> 
         <Route path='/mentorsRating' component={MentorsRating} /> 
+
+        {/* Added Menu for Loveleen */}
+        <Route path='/Faqs' component={Faqs} />
+        <Route path='/InterviewToolkit' component={InterviewToolkit} />
+        <Route path='/DownloadTemplate' component={DownloadTemplate} />
 
         {/* Added By Shelcy */}
 
