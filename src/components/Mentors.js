@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const MentorsPhoto = () => {
+const Mentors = () => {
   const [mentors, setMentors] = useState([]);
   useEffect(() => {
     fetch("http://project-server-mary.herokuapp.com/api/mentors")
@@ -39,4 +39,4 @@ const MentorsPhoto = () => {
 };
 
 
-export default MentorsPhoto;
+export default Mentors;

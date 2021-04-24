@@ -14,7 +14,7 @@ function Header(){
       <div className="guest">
       <NavLink exact activeClassName='is-active' to='/'>HOME</NavLink>
 
-      <NavLink activeClassName='is-active' to='/mentorsphoto'>
+      <NavLink activeClassName='is-active' to='/mentors'>
             Mentor's Photo 
           </NavLink>
           <NavLink activeClassName='is-active' to='/mentorsBio'>

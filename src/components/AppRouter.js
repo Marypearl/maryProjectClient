@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
-import MentorsPhoto from './MentorsPhoto';
+import Mentors from './Mentors';
 import MentorsBio from './MentorsBio';
 import MentorsQuestion from './MentorsQuestion'
 
@@ -24,7 +24,7 @@ const AppRouter = () => {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/Header' component={Header}> </Route>
-        <Route path='/MentorsPhoto' component={MentorsPhoto} />
+        <Route path='/Mentors' component={Mentors} />
         <Route path='/MentorsQuestion' component={MentorsQuestion} />        
         <Route path='/MentorsBio' component={MentorsBio} />
         <Route path='/Footer' component={Footer}> </Route>
