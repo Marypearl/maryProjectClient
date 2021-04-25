@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Mentors = () => {
   const [mentors, setMentors] = useState([]);
   useEffect(() => {
-    fetch("http://project-server-mary.herokuapp.com/api/mentors")
+    fetch("https://project-server-mary.herokuapp.com/api/mentors")
       .then((res) => res.json())
       .then((resData) => {
         setMentors(resData);
