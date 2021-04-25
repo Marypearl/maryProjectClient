@@ -10,7 +10,7 @@ const MentorsQuestion = () => {
   const [questionSubmitted, setQuestionSubmitted] = useState(false);
 
   useEffect(() => {
-    axios.get("http://project-server-mary.herokuapp.com/api/QA").then((resData) => {
+    axios.get("https://project-server-mary.herokuapp.com/api/QA").then((resData) => {
       setQuestions(resData.data);
       console.log(resData);
     });
@@ -24,7 +24,7 @@ const MentorsQuestion = () => {
       website:website,
       question:comments
     }
-    axios.post("http://project-server-mary.herokuapp.com/api/menteesQuestion",question).then(res=>{
+    axios.post("https://project-server-mary.herokuapp.com/api/menteesQuestion",question).then(res=>{
       setQuestionSubmitted(true)
       setComments("")
       setEmail("")
